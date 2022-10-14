@@ -1,0 +1,72 @@
+/* Opdracht 3 */
+
+.social-media-buttons {
+    position: fixed;
+    top: 50%;
+    left: calc(100% - 60px);
+    list-style-type: none;
+    padding: 0;
+    transform: translateY(-50%);
+    min-width: 275px;
+  }
+  
+  .social-media {
+    align-items: center;
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    &:hover {
+      transform: translateX(calc(-100% + 60px));
+    }
+  }
+
+  .social-media i {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 10px 15px 2px;
+    width: 60px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: $achtergrond-text;
+  }
+  
+  .social-media.blog {
+    background-color: $achtergrond-blog;
+  }
+  
+  .social-media.twitter {
+    background-color: $achtergrond-twitter;
+  }
+  
+  .social-media.linkedin {
+    background-color: $achtergrond-linkedin;
+  }
+  
+  .social-media.facebook {
+    background-color: $achtergrond-facebook;
+  }
+  
+  .social-media.git {
+    background-color: $achtergrond-git;
+  }
+  
+  /* 
+  ? Waarom had ik, zoals uitgelegd bij de opdracht, onderstaand nog moeten toevoegen? Dat heb ik nu niet gedaan.. Maar werkt wel gewoon. 
+  
+  .fa-laptop-code::before {
+      content: "\f5fc";
+  }
+  .fa-twitter::before {
+      content: "\f099";
+  }
+  .fa-linkedin-in::before {
+      content: "\f0e1";
+  }
+  .fa-facebook-f::before {
+      content: "\f39e";
+  }
+  .fa-github::before {
+      content: "\f09b";
+  }
+  */
