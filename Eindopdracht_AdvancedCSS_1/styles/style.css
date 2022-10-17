@@ -120,7 +120,7 @@ dit 3 verschillende box shadows zijn. Ik dacht dit op te lossen door de box-shad
 }
 .portfolio-overlay a {
   text-decoration: none;
-  background-color: lightgrey;
+  background-color: yellow;
   border-radius: 5px;
   color: #000;
   margin-top: 15px;
